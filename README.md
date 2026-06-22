@@ -69,7 +69,7 @@ directory where you saved it:
 
 ```sh
 # On OPNsense, in the directory where you copied the file (as root or via sudo):
-pkg install ./os-kea-ubnd-ddns-0.96.pkg
+pkg install ./os-kea-ubnd-ddns-0.97.pkg
 ```
 
 No package repository is required — OPNsense's `pkg` accepts a local `.pkg` file
@@ -93,10 +93,10 @@ git clone https://github.com/tkreagan/os-kea-ubnd-ddns /usr/plugins/net/kea-ubnd
 # 3. Build the package
 cd /usr/plugins/net/kea-ubnd-ddns
 make package
-# → work/pkg/os-kea-ubnd-ddns-0.96.pkg
+# → work/pkg/os-kea-ubnd-ddns-0.97.pkg
 
 # 4. Install
-pkg add work/pkg/os-kea-ubnd-ddns-0.96.pkg
+pkg add work/pkg/os-kea-ubnd-ddns-0.97.pkg
 ```
 
 > **macOS / Linux cross-build note:** The `make package` target must run on a
